@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Elite Prints</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b0f;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 30px 20px;
+}
+
+.logo {
+    max-width: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #00e0ff;
+}
+
+p.tagline {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: #111;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00e0ff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    color: #00e0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="IMG_1991.jpeg" class="logo">
+    <h1>Elite Prints</h1>
+    <p class="tagline">Click a product to view more 🔍</p>
+</header>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485">
+        <a href="https://www.thingiverse.com/search?q=fidget&type=things" target="_blank">View Fidget Designs</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1616627981467-9f0c2c0b9d7d">
+        <a href="https://www.printables.com/search/models?q=fidget" target="_blank">More 3D Fidgets</a>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789">
+        <a href="https://www.thingiverse.com/" target="_blank">Explore Designs</a>
+    </div>
+
+</div>
+
+</body>
+</html>
